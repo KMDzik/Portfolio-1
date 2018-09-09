@@ -1,7 +1,8 @@
 body {
     margin:0;
     /*background-color: #eacdcf;*/
-    background-color:#eacdcf;
+    background-color:rgba(238, 214, 232, 0.726);
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -20,12 +21,13 @@ body {
  
  
     .hero-text {
+
         text-align: center;
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 25%;
+        left: 45%;
         transform: translate(-50%, -50%);
         color: white;  
-   
+       
     
 }
