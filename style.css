@@ -1,20 +1,21 @@
 body {
     margin:0;
     /*background-color: #eacdcf;*/
-    background-color: black;
+    background-color:#eacdcf;
 
 }
 
 .hero-image {
     background-image:url("f5.jpg");
-    background-color: black;
+    background-color: #eacdcf;
     height: 850px;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 20px;
     background-size: cover;
     position: relative;
-    box-shadow: 0 0 20px 10px red
+    box-shadow: 0 0 20px 10px white;
+    
 }
  
  
