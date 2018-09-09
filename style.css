@@ -1,8 +1,9 @@
 body {
     margin:0;
     /*background-color: #eacdcf;*/
-    background-color:rgba(238, 214, 232, 0.726);
+    background-color:rgba(238, 214, 232, 0.726); 
     font-family: 'Open Sans', sans-serif;
+  
 
 }
 
@@ -31,12 +32,25 @@ body {
 }
 
     .hero-text2 {
+        background: rgb(202, 154, 154);
+        display: flex;
+        flex-direction: column;
+        
+    }
 
-    text-align: left;
-    position: absolute; /*
-    top: 96%;
-    left: 30%;
-    /*
-    transform: translate(-50%, -30%);
-    /*
-    color: white;  
+    .contact {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        margin-left: 30px;
+        font-size: 15px;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover { 
+        color:black;
+    }
+  
