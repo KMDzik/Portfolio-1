@@ -1,0 +1,13 @@
+body {
+    margin:0;
+
+}
+
+.hero-image {
+    background-image:url("c.jpg");
+    background-color:#eacdcf;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
