@@ -1,13 +1,19 @@
 body {
     margin:0;
+    /*background-color: #eacdcf;*/
+    background-color: black;
 
 }
 
 .hero-image {
-    background-image:url("c.jpg");
+    background-image:url("foto.jpg");
     background-color:#eacdcf;
-    height: 500px;
+    height: 700px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    margin: 60px 0 0 0;
+    padding: 50px;
+   
     
 }
