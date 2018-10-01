@@ -1,0 +1,9 @@
+body {
+  height: 100%;
+  margin:0;
+  font-family:"Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 50px;
+  line-height: 1.8em;
+  background: rgb(176, 156, 189);
+}
