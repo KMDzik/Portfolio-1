@@ -11,19 +11,44 @@ body {
 .hero-foto {
   background-image:url('/laptop.jpg');
   min-height: 100%;
+  position: relative;
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
 }
 
 .middle-foto {
   background-image:url('/ballet.jpg');
   min-height: 100%;
+  position: relative;
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .bottom-foto {
   background-image:url('/camera.jpg');
   min-height: 100%;
+  position: relative;
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .repeat-foto {
   background-image:url('/laptop.jpg');
   min-height: 100%;
+  position: relative;
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
