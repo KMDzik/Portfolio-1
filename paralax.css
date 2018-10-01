@@ -7,3 +7,23 @@ body {
   line-height: 1.8em;
   background: rgb(176, 156, 189);
 }
+
+.hero-foto {
+  background-image:url('/laptop.jpg');
+  min-height: 100%;
+}
+
+.middle-foto {
+  background-image:url('/ballet.jpg');
+  min-height: 100%;
+}
+
+.bottom-foto {
+  background-image:url('/camera.jpg');
+  min-height: 100%;
+}
+
+.repeat-foto {
+  background-image:url('/laptop.jpg');
+  min-height: 100%;
+}
