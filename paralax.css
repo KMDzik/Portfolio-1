@@ -11,51 +11,36 @@ body {
 .hero-foto {
   background-image:url('/laptop.jpg');
   min-height: 800px;
-  position: relative;
-  opacity: 0.75;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .middle-foto {
   background-image:url('/ballet.jpg');
   min-height: 450px;
-  position: relative;
-  opacity: 0.75;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .bottom-foto {
   background-image:url('/camera.jpg');
   min-height: 450px;
-  position: relative;
-  opacity: 0.75;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .repeat-foto {
   background-image:url('/laptop.jpg');
   min-height: 100%;
-  position: relative;
-  opacity: 0.75;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
+
+.hero-foto, .middle-foto, .bottom-foto, .repeat-foto {
+position: relative;
+opacity: 0.75;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
 
 
 
 .about-me, .skills, .form {
   text-align: center;
   padding: 50px 80px;
-
 }
