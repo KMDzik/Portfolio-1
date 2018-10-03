@@ -38,7 +38,7 @@ background-attachment: fixed;
 }
 
 
-.about-me, .skills, .form {
+#about-me, #skills, #form {
   text-align: center;
   padding: 50px 80px;
 }
@@ -60,3 +60,13 @@ text-transform: uppercase;
   padding: 50px;
 }
 
+.footer {
+  
+}
+
+
+@media(max-width:568px){
+  .hero-foto, .middle-foto, .bottom-foto, .repeat-foto{
+    background-attachment: scroll;
+  }
+}
