@@ -13,12 +13,10 @@ body {
 .hero-foto {
   background-image:url('/laptop.jpg');
   min-height: 1000px;
-  display: flex;
+  
 }
 
-.menu {
-  justify-content: flex-end
-}
+
 
 a {
   text-decoration: none;
