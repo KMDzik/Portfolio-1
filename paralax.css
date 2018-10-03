@@ -10,15 +10,75 @@ body {
 
 
 
-
-
-
-
-
 .hero-foto {
   background-image:url('/laptop.jpg');
   min-height: 1000px;
+  display: flex;
 }
+
+.menu {
+  justify-content: flex-end
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  background: darkorange;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+  color: #fff;
+background: darkorange;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+transition-duration: 0.5s;
+}
+
+li a {
+color: #fff;
+}
+
+li:hover {
+  background: red;
+  cursor: pointer;
+}
+
+ul li ul {
+  background: orange;
+  visibility: hidden;
+opacity: 0;
+min-width: 5rem;
+  position: absolute;
+transition: all 0.5s ease;
+margin-top: 1rem;
+  left: 0;
+display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+visibility: visible;
+opacity: 1;
+display: block;
+}
+
+ul li ul li {
+  clear: both;
+width: 100%;
+}
+
+
+
+
+
 
 .middle-foto {
   background-image:url('/ballet.jpg');
@@ -51,6 +111,17 @@ background-attachment: fixed;
 }
 
 .hero-text, .middle-text, .bottom-text {
+  position: absolute;
+  top:50%;
+  width:100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  }
+
+.middle-text, .bottom-text {
 position: absolute;
 top:50%;
 width:100%;
