@@ -8,75 +8,58 @@ body {
   background: rgba(114, 66, 110, 0.267);
 }
 
-
-
-.hero-foto {
-  background-image:url('/laptop.jpg');
-  min-height: 1000px;
-  
-}
-
-
-
 a {
   text-decoration: none;
 }
 
 ul {
-  background: darkorange;
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
+  margin: 0;
+  padding-left: 0;
 }
 
 li {
-  color: #fff;
-background: darkorange;
+  color: rgba(255, 255, 255, 0.021);
+  background: rgba(0, 0, 0, 0.836);
   display: block;
   float: left;
   padding: 1rem;
-  position: relative;
+  /* position: relative; */
   text-decoration: none;
-transition-duration: 0.5s;
+  transition-duration: 0.7s;
 }
 
 li a {
-color: #fff;
+color: white;
 }
 
 li:hover {
-  background: red;
+  background: #4e3531;
   cursor: pointer;
 }
 
 ul li ul {
-  background: orange;
-  visibility: hidden;
-opacity: 0;
-min-width: 5rem;
   position: absolute;
-transition: all 0.5s ease;
-margin-top: 1rem;
   left: 0;
-display: none;
+  display: none;
 }
 
 ul li:hover > ul,
 ul li ul:hover {
-visibility: visible;
-opacity: 1;
 display: block;
 }
 
 ul li ul li {
-  clear: both;
+clear: both;
 width: 100%;
 }
 
 
 
 
-
+.hero-foto {
+  background-image:url('/laptop.jpg');
+  min-height: 1000px;
+}
 
 .middle-foto {
   background-image:url('/ballet.jpg');
@@ -86,11 +69,6 @@ width: 100%;
 .bottom-foto {
   background-image:url('/camera2.jpg');
   min-height: 500px;
-}
-
-.repeat-foto {
-  background-image:url('/laptop.jpg');
-  min-height: 1000px;
 }
 
 .hero-foto, .middle-foto, .bottom-foto, .repeat-foto {
@@ -108,7 +86,7 @@ background-attachment: fixed;
   padding: 50px 80px;
 }
 
-.hero-text, .middle-text, .bottom-text {
+.hero-text {
   position: absolute;
   top:50%;
   width:100%;
@@ -117,6 +95,7 @@ background-attachment: fixed;
   font-size: 27px;
   letter-spacing: 8px;
   text-transform: uppercase;
+  transition-duration: 0.7s;
   }
 
 .middle-text, .bottom-text {
