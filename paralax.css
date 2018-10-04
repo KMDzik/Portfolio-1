@@ -56,9 +56,6 @@ clear: both;
 width: 100%;
 }
 
-
-
-
 .hero-foto {
   background-image:url('/laptop.jpg');
   min-height: 1000px;
@@ -66,7 +63,7 @@ width: 100%;
 
 .middle-foto {
   background-image:url('/ballet.jpg');
-  min-height: 1000px;
+  min-height: 500px;
 }
 
 .bottom-foto {
@@ -83,7 +80,7 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 }
 
-#about-me, #skills, #form {
+#about-me, #skills, #form-section {
   text-align: center;
   padding: 50px 80px;
 }
@@ -117,10 +114,77 @@ text-transform: uppercase;
   padding: 50px;
 }
 
+.form-container {
+  height: 300px;
+  background:#67778da2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
 
+.form {
+  height: 35%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-input {
+  border-radius: 15px;
+  justify-content: center;
+}
+
+.form-text {
+  letter-spacing: 2px;
+  margin-top: 13px;
+  margin-bottom: 1rem;
+  color: #122843;
+}
+
+.form-text2 {
+  margin-bottom: 1rem;
+  color: #122843;
+}
+
+.form-btn {
+  border-radius: 15px;
+}
+
+.form-btn button {
+  width: 205px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: #8c4bc2;
+  background: #e257cb;
+  color: #f1f4fc;
+}
+
+input {
+  height: 20px;
+  width: 205px;
+  background: #f1f4fc;
+  border-radius: 5px;
+}
+
+.form {
+  height: 60%;
+  background:#d9ccd8
+}
 
 .footer {
-  
+  text-align: center;
+  font-size: 15px;
 }
 
 

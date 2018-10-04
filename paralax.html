@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="paralax.css">
     <script src="menu.js"></script>
     <script src="slides.js"></script>
+    <script src="form.js"></script>
 </head>
 
 <body>
@@ -56,17 +57,17 @@
         <div class="about-me-text">
             <p>
                 I am a Junior Front-end Developer leaving in Gdansk, Poland.
-                <br>I create <b> beautiful </b> & <b>functional</b> websited for small businesses.
-                
+                <br>I create <b> beautiful </b> & <b>functional</b> websites for small businesses.
+
             </p>
         </div>
     </div>
 
     <div class="middle-foto">
         <div class="middle-text">
-            <span class="border">
+            <!-- <span class="border">
                 Fota 2
-            </span>
+            </span> -->
         </div>
     </div>
 
@@ -86,30 +87,27 @@
         </div>
     </div>
 
-    <div id="form">
-        <h2>Contact me</h2>
-        <div id="form">
+    <div id="form-section">
+        <div class="contact">
             <div class="form-container">
                 <div class="form">
-                    <form>
+                    <form action="https://formspree.io/paweljozwiak1986@gmail.com" method="POST">
                         <div class="form-input">
-                            <!-- <div class="form-text">
-                                dfgdfg
-                                </div>
-         -->
-                            <input class="form-text__input" type="text" id="uname" name="name" placeholder="Your@email.com"
+                            <div class="form-text">
+                                Subscribe to newsletter
+                            </div>
+                            <input required class="form-text__input" type="email" id="uname" name="name" placeholder="Your@email.com"
                                 size="30">
                         </div>
+                        <input type="hidden" name="_next" value="./Game-homework/index.html" />
                         <div class="form-btn">
-                            <button type="button">Sign up</button>
+                            <button type="submit">Sign up</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
-
 
     <!-- <div class="repeat-foto">
             <div class="repeat-text">
