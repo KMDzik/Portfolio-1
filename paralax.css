@@ -83,7 +83,6 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 }
 
-
 #about-me, #skills, #form {
   text-align: center;
   padding: 50px 80px;
@@ -99,7 +98,7 @@ background-attachment: fixed;
   letter-spacing: 8px;
   text-transform: uppercase;
   transition-duration: 0.7s;
-  }
+}
 
 .middle-text, .bottom-text {
 position: absolute;
@@ -118,9 +117,6 @@ text-transform: uppercase;
   padding: 50px;
 }
 
-
-
-  
 
 
 .footer {
