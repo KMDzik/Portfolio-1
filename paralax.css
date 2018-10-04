@@ -114,6 +114,12 @@ text-transform: uppercase;
   padding: 50px;
 }
 
+.skills-icons{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
 .form-container {
   height: 300px;
   background:#67778da2;
