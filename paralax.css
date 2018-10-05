@@ -1,5 +1,5 @@
 body {
-  height: 100%;
+  /* height: 100%; */
   margin:0;
   font-family:"Lato", sans-serif;
   font-size: 20px;
@@ -120,6 +120,10 @@ text-transform: uppercase;
   padding-top: 100px;
 }
 
+.skills {
+  background: #67778da2;
+}
+
 .form-container {
   height: 300px;
   background:#67778da2;
@@ -136,6 +140,8 @@ text-transform: uppercase;
   align-items: center;
   border-radius: 15px;
   justify-content: center;
+  height: 80%;
+  background:#d9ccd8
 }
 
 form {
@@ -183,31 +189,11 @@ input {
   border-radius: 5px;
 }
 
-.form {
-  height: 80%;
-  background:#d9ccd8
-}
 
 .footer {
   text-align: center;
   font-size: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media(max-width:568px){
   .hero-foto, .middle-foto, .bottom-foto, .repeat-foto{
