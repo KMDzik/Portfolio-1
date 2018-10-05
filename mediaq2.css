@@ -1,9 +1,10 @@
 
  
-@media only screen and (min-width: 569px) and (max-width: 1000px) {
+@media only screen and (max-width: 568px) {
   .hero-foto, .middle-foto, .bottom-foto, .repeat-foto{
     background-attachment: scroll;
 }
+
 
 body {
   /* height: auto; */
@@ -16,7 +17,6 @@ body {
 }
 
 /* menu */
-
 
 a {
   text-decoration: none;
@@ -46,7 +46,7 @@ color: white;
 }
 
 li a img {
-  width: 30px;
+  width: 28px;
 }
 
 li:hover {
@@ -67,7 +67,7 @@ display: block;
 
 ul li ul li {
 clear: both;
-width: 90%;
+width: 80%;
 }
 
 /* main fotos */
@@ -108,14 +108,14 @@ background-attachment: scroll;
 .hero-text {
   /* position: relative;
   top:50%; */
-  width:100%;
+  /* width:100%; */
   text-align: center;
   color: black;
   font-size: 15px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
+  letter-spacing: 2px;
+  /* text-transform: uppercase; */
   transition-duration: 0.7s;
-  padding-top: 20px;
+  padding-top:10px;
 }
 
 .border {
@@ -138,7 +138,7 @@ text-transform: uppercase;
 
 /* skills */
 .slider img {
-height: 250px;
+height: 200px;
 }
 
 .skills {
@@ -159,6 +159,7 @@ height: 250px;
 
 .form-container {
   height: 300px;
+  width: 100%;
   background:#67778da2;
   display: flex;
   align-items: center;
@@ -168,7 +169,7 @@ height: 250px;
 
 .form {
   height: 35%;
-  width: 50%;
+  width: 90%;
   display: flex;
   align-items: center;
   border-radius: 15px;
@@ -248,4 +249,5 @@ input {
 .footer {
   text-align: center;
   font-size: 15px;
+  padding-top: 30px;
 }
