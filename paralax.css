@@ -189,6 +189,24 @@ input {
   border-radius: 5px;
 }
 
+.socialm {
+  font-size: 100px;
+  display:flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  margin-bottom: -40px;
+}
+
+.soaicalm>a {
+  color: black;
+  transition: 2s ease-out;
+}
+
+.socialm>a:hover {
+  color: darkmagenta;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
 
 .footer {
   text-align: center;
