@@ -6,16 +6,17 @@
 }
 
 body {
-  /* height: 100%; */
+  /* height: auto; */
   margin:0;
   font-family: 'Nunito', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   /* font-weight: 100px; */
   line-height: 1.8em;
   background: rgba(114, 66, 110, 0.267);
 }
 
 /* menu */
+
 
 a {
   text-decoration: none;
@@ -32,16 +33,20 @@ li {
   display: block;
   float: left;
   padding: 1rem;
-  /* position: relative; */
+  position: relative;
   text-decoration: none;
   transition-duration: 0.7s;
   text-transform: uppercase;
   font-size: 15px;
-  letter-spacing: 3px;
+  /* letter-spacing: 3px; */
 }
 
 li a {
 color: white;
+}
+
+li a img {
+  width: 30px;
 }
 
 li:hover {
@@ -62,33 +67,33 @@ display: block;
 
 ul li ul li {
 clear: both;
-width: 100%;
+width: 90%;
 }
 
 /* main fotos */
 
 .hero-foto {
   background-image:url('/laptop.jpg');
-  min-height: 930px;
+  min-height: 400px;;
 }
 
 .middle-foto {
   background-image:url('/ballet.jpg');
-  min-height: 500px;
+  min-height: 300px;
 }
 
 .bottom-foto {
   background-image:url('/camera2.jpg');
-  min-height: 500px;
+  min-height: 300px;
 }
 
 .hero-foto, .middle-foto, .bottom-foto {
-position: relative;
+/* position: relative; */
 opacity: 0.75;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-background-attachment: fixed;
+background-attachment: scroll;
 }
 
 
@@ -96,27 +101,27 @@ background-attachment: fixed;
 
 #about-me, #skills, #form-section  {
   text-align: center;
-  padding: 50px 80px;
+  padding: 30px 50px;
   line-height: 1.8em;
 }
 
 .hero-text {
-  /* position: absolute; */
-  top:50%;
+  /* position: relative;
+  top:50%; */
   width:100%;
   text-align: center;
   color: black;
-  font-size: 22px;
+  font-size: 15px;
   letter-spacing: 8px;
   text-transform: uppercase;
   transition-duration: 0.7s;
-  padding-top: 500px;
+  padding-top: 20px;
 }
 
 .border {
   background: black;
   color: white;
-  padding: 50px;
+  padding: 11px;
 }
 
 
@@ -132,16 +137,18 @@ text-transform: uppercase;
 } */
 
 /* skills */
+.slider img {
+height: 250px;
+}
 
 .skills {
   background: #67778da2;
 }
 
-.skills-icons{
-  display: flex;
-  justify-content: space-around;
-  padding-top: 90px;
-  padding-bottom: 30px;
+.skills-icons img{
+  height: 70px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 
