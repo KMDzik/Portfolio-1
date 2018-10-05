@@ -4,6 +4,264 @@
   .hero-foto, .middle-foto, .bottom-foto, .repeat-foto{
     background-attachment: scroll;
 }
+
+body {
+  /* height: 100%; */
+  margin:0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  /* font-weight: 100px; */
+  line-height: 1.8em;
+  background: rgba(114, 66, 110, 0.267);
+}
+
+/* menu */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  color: rgba(255, 255, 255, 0.021);
+  background: rgba(0, 0, 0, 0.836);
+  display: block;
+  float: left;
+  padding: 1rem;
+  /* position: relative; */
+  text-decoration: none;
+  transition-duration: 0.7s;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+li a {
+color: white;
+}
+
+li:hover {
+  background: #4e3531;
+  cursor: pointer;
+}
+
+ul li ul {
+  position: absolute;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+display: block;
+}
+
+ul li ul li {
+clear: both;
+width: 100%;
+}
+
+/* main fotos */
+
+.hero-foto {
+  background-image:url('/laptop.jpg');
+  min-height: 930px;
+}
+
+.middle-foto {
+  background-image:url('/ballet.jpg');
+  min-height: 500px;
+}
+
+.bottom-foto {
+  background-image:url('/camera2.jpg');
+  min-height: 500px;
+}
+
+.hero-foto, .middle-foto, .bottom-foto {
+position: relative;
+opacity: 0.75;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+/* light sections */
+
+#about-me, #skills, #form-section  {
+  text-align: center;
+  padding: 50px 80px;
+  line-height: 1.8em;
+}
+
+.hero-text {
+  /* position: absolute; */
+  top:50%;
+  width:100%;
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  transition-duration: 0.7s;
+  padding-top: 500px;
+}
+
+.border {
+  background: black;
+  color: white;
+  padding: 50px;
+}
+
+
+/* .middle-text, .bottom-text {
+position: absolute;
+top:50%;
+width:100%;
+text-align: center;
+color: black;
+font-size: 27px;
+letter-spacing: 8px;
+text-transform: uppercase;
+} */
+
+/* skills */
+
+.skills {
+  background: #67778da2;
+}
+
+.skills-icons{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+
+
+
+/* form  */
+
+.form-container {
+  height: 300px;
+  background:#67778da2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.form {
+  height: 35%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: center;
+  height: 80%;
+  background:#d9ccd8;
+  /* line-height: 1.8em; */
+}
+
+form {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-input {
+  border-radius: 15px;
+  justify-content: center;
+}
+
+.form-text {
+  letter-spacing: 1px;
+  margin-top: 13px;
+  margin-bottom: 1rem;
+  color: #122843;
+}
+
+/* .form-text2 {
+  margin-bottom: 1rem;
+  color: #122843;
+} */
+
+.form-btn {
+  border-radius: 15px;
+}
+
+.form-btn button {
+  width: 205px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: #8c4bc2;
+  background: #e257cb;
+  color: #f1f4fc;
+}
+
+input {
+  height: 20px;
+  width: 205px;
+  background: #f1f4fc;
+  border-radius: 5px;
+}
+
+
+/* social media  */
+
+.socialm {
+  font-size: 100px;
+  display:flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  margin-bottom: -40px;
+}
+
+.soaicalm>a {
+  color: black;
+  transition: 2s ease-out;
+}
+
+.socialm>a:hover {
+  color: darkmagenta;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.footer {
+  text-align: center;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 @media only screen and (max-width: 568px) {
   .hero-foto, .middle-foto, .bottom-foto, .repeat-foto{
