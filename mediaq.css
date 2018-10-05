@@ -1,0 +1,11 @@
+
+ 
+@media only screen and (min-width: 569px) and (max-width: 1000px) {
+  .hero-foto, .middle-foto, .bottom-foto, .repeat-foto{
+    background-attachment: scroll;
+}
+ 
+@media only screen and (max-width: 568px) {
+  .hero-foto, .middle-foto, .bottom-foto, .repeat-foto{
+    background-attachment: scroll;
+}
