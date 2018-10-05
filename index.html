@@ -5,25 +5,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-
-    <title>Katarzyna Dzik</title>
+    <title>Katarzyna Dzik Portfolio</title>
+    <link rel="stylesheet" href="mediaq.css" media="(max-width: 999px)">
+    <link rel="stylesheet" href="mediaq2.css" media="(max-width: 589px)">
+    <link rel="stylesheet" href="paralax.css" media="(min-width: 1000px)">
+    <script src="menu.js"></script>
+    <script src="slides.js"></script>
+    <script src="form.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="hero-image">
-
-        <div class="hero-text2">
-            <div class="contact"> <a href="https://github.com/KMDzik"> <b>GitHub</b></a></div>
-            <div class="contact"><a href="https://www.linkedin.com/in/katarzyna-dzik-956902a2"><b>LinkedIn </b></a></div>
-            <div class="contact"> <a href="mailto: katarzyna.dzik90@gmail.com"> <b>e-mail: katarzyna.dzik90@gmail.com</b> </a></div>
+    <div class="hero-foto">
+        <div class="menu">
+            <nav role="navigation">
+                <ul>
+                    <li><a href="#" aria-haspopup="true">
+                            <img src="./img/menu.jpg" width="70px" />
+                        </a>
+                        <ul class="dropdown" aria-label="submenu">
+                            <li><a href="#about-me">About me</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#form-section">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </div>
+
+        <!----
+        <div class="nav">
+              <a href="#about-me" class="nav-item">About Me</a>
+              <a href="#skills" class="nav-item">Skills & Hobby</a>
+              <a href="#form" class="nav-item">Contact</a>
+        </div> -->
+
 
         <div class="hero-text">
-            <h1 style="font-size:75px">Katarzyna Dzik</h1>
-            <h3 style="font-size:35px">Front-End Developer</h3>
+            <span class="border">
+                Katarzyna Dzik -
+                Junior Frontend Developer
+            </span>
         </div>
     </div>
+
+    <div id="about-me">
+        <h2>About me</h2>
+
+        <div class="slider">
+            <img src="./img/me.jpeg" height="350px">
+            <img src="./img/poster.jpg" height="350px">
+        </div>
+
+        <div class="about-me-text">
+            <p>
+                I am a Junior Front-end Developer leaving in Gdansk, Poland.
+                <br>I create <b> beautiful </b> & <b>functional</b> websites for small businesses.
+
+            </p>
+        </div>
+    </div>
+
+    <div class="middle-foto">
+        <div class="middle-text">
+            <!-- <span class="border">
+                Fota 2
+            </span> -->
+        </div>
+    </div>
+
+    <div id="skills">
+        <h2>Skills & Hobby</h2>
+        <div class="skills-icons">
+            <img src="./img/react.png" height="130px">
+            <img src="./img/js.png" height="130px">
+            <img src="./img/css.png" height="125px">
+            <img src="./img/html.png" height="130px">
+            <img src="./img/dance.png" height="130px">
+            <img src="./img/music.png" height="130px">
+            <img src="./img/came.png" height="130px">
+        </div>
+    </div>
+
+    <div class="bottom-foto">
+        <div class="bottom-text">
+            <!-- <span class="border">
+                Fota 3
+            </span> -->
+        </div>
+    </div>
+
+    <div id="form-section">
+        <!-- <h2>Contact</h2> -->
+        <div class="contact">
+            <div class="form-container">
+                <div class="form">
+                    <form action="https://formspree.io/paweljozwiak1986@gmail.com" method="POST">
+                        <div class="form-input">
+                            <div class="form-text">
+                                <h4> Ready to tell me about your project? </h4>
+                                <h5>Let's create something great together! :) </h5>
+                            </div>
+                            <input required class="form-text__input" type="email" id="uname" name="name" placeholder="Your@email.com"
+                                size="30">
+                        </div>
+                        <input type="hidden" name="_next" value="./Game-homework/index.html" />
+                        <div class="form-btn">
+                            <button type="submit">Get In Touch</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="socialm">
+            <a href="https://github.com/KMDzik" title="Github" target="_blank">
+                <i class="fab fa-github-square"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/katarzyna-dzik-956902a2/" title="LinkedIn" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- <div class="repeat-foto">
+            <div class="repeat-text">
+                <span class="border">
+                    footer?
+                </span>
+            </div>
+        </div> -->
+    <footer>
+        <div class="footer">
+            <div class="footer-text">Copyright © 2018 Katarzyna Dzik</div>
+        </div>
+    </footer>
 </body>
+
 </html>
