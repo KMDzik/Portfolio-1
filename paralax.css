@@ -86,7 +86,10 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 }
 
-#about-me, #skills, #form-section {
+
+/* light sections */
+
+#about-me, #skills, #form-section  {
   text-align: center;
   padding: 50px 80px;
   line-height: 1.8em;
@@ -105,7 +108,14 @@ background-attachment: fixed;
   padding-top: 500px;
 }
 
-.middle-text, .bottom-text {
+.border {
+  background: black;
+  color: white;
+  padding: 50px;
+}
+
+
+/* .middle-text, .bottom-text {
 position: absolute;
 top:50%;
 width:100%;
@@ -114,23 +124,24 @@ color: black;
 font-size: 27px;
 letter-spacing: 8px;
 text-transform: uppercase;
-}
+} */
 
-.border {
-  background: black;
-  color: white;
-  padding: 50px;
+/* skills */
+
+.skills {
+  background: #67778da2;
 }
 
 .skills-icons{
   display: flex;
   justify-content: space-around;
-  padding-top: 100px;
+  padding-top: 90px;
+  padding-bottom: 30px;
 }
 
-.skills {
-  background: #67778da2;
-}
+
+
+/* form  */
 
 .form-container {
   height: 300px;
@@ -143,7 +154,7 @@ text-transform: uppercase;
 
 .form {
   height: 35%;
-  width: 40%;
+  width: 50%;
   display: flex;
   align-items: center;
   border-radius: 15px;
@@ -173,10 +184,10 @@ form {
   color: #122843;
 }
 
-.form-text2 {
+/* .form-text2 {
   margin-bottom: 1rem;
   color: #122843;
-}
+} */
 
 .form-btn {
   border-radius: 15px;
@@ -197,6 +208,9 @@ input {
   background: #f1f4fc;
   border-radius: 5px;
 }
+
+
+/* social media  */
 
 .socialm {
   font-size: 100px;
