@@ -63,17 +63,17 @@ width: 100%;
 /* main fotos */
 
 .hero-foto {
-  background-image:url('/laptop.jpg');
+  background-image:url('./img/laptop.jpg');
   min-height: 930px;
 }
 
 .middle-foto {
-  background-image:url('/ballet.jpg');
+  background-image:url('./img/ballet.jpg');
   min-height: 500px;
 }
 
 .bottom-foto {
-  background-image:url('/camera2.jpg');
+  background-image:url('./img/camera2.jpg');
   min-height: 500px;
 }
 
