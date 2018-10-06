@@ -122,6 +122,9 @@ background-attachment: scroll;
   background: black;
   color: white;
   padding: 11px;
+  width: 70%;
+  margin: 0 auto;
+  letter-spacing: 0,1em;
 }
 
 
