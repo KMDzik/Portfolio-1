@@ -12,6 +12,10 @@ body {
 
 /* menu */
 
+.menu {
+  position: fixed;
+}
+
 a {
   text-decoration: none;
 }
@@ -111,7 +115,10 @@ background-attachment: fixed;
 .border {
   background: black;
   color: white;
-  padding: 50px;
+  padding: 30px;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 2em;
 }
 
 
