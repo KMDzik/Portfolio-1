@@ -151,7 +151,7 @@ text-transform: uppercase;
 /* form  */
 
 .form-container {
-  height: 300px;
+  height: 350px;
   background:#67778da2;
   display: flex;
   align-items: center;
@@ -160,7 +160,7 @@ text-transform: uppercase;
 }
 
 .form {
-  height: 40%;
+  /* height: 600%; */
   width: 50%;
   display: flex;
   align-items: center;
